@@ -59,12 +59,12 @@ print(pythagoras(1, 1))
 
 
 # practice
-def signswitch(a):
+def sign_switch(a):
 	if a < 0:
 		return abs(a)
 	if a > 0:
 		return -a
-print(signswitch(3))
+print(sign_switch(3))
 
 
 # strings 
