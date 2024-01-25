@@ -10,8 +10,8 @@ def accuracy(TP, FP, TN, FN):
 	p = (TP / (TP + FP))
 	r = (TP / (TP + FN))
 	f = (2 / ((1 / r) + (1 / p)))
-	print(a, f)
+	return a, f
 
-accuracy(50, 10, 100, 5)
-accuracy(12, 23, 23, 92)
-accuracy(72, 12, 34, 26)
+print(accuracy(50, 10, 100, 5))
+print(accuracy(12, 23, 23, 92))
+print(accuracy(72, 12, 34, 26))

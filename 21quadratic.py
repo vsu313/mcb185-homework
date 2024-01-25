@@ -9,8 +9,8 @@ import math
 def quadratic(a, b, c):
 	x = ((-b + math.sqrt(b**2 - 4*a*c)) / 2*a)
 	y = ((-b - math.sqrt(b**2 - 4*a*c)) / 2*a)
-	print(x, y)
+	return x, y
 
-quadratic(1, 3, 1)
-quadratic(2, -4, 1)
-quadratic(5, -8, -2)
+print(quadratic(1, 3, 1))
+print(quadratic(2, -4, 1))
+print(quadratic(5, -8, -2))
