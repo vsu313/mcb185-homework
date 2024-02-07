@@ -9,9 +9,9 @@ Demonstrate that your program works by computing the Tm of several oligos of dif
 
 def oligo_temp(A, C, G, T):
 	if (A + C + G + T) <= 13:
-		return 2*(A + T) + 4*(G + C)
+		return 2 * (A + T) + 4 * (G + C)
 	else:
-		return 64.9 + (41*(G + C - 16.4) / (A + C + G +T ))
+		return 64.9 + (41 * (G + C - 16.4) / (A + C + G +T ))
 		
 print(oligo_temp(3, 4, 4, 3))
 print(oligo_temp(9, 5, 5, 9))
