@@ -5,15 +5,12 @@ This is a tricky problem. You need to initialize and keep track of 2 previous va
 
 '''
 
-def fibonacci():
-	num1 = 0
-	num2 = 1
-	print(num1)
-	print(num2)
-	for i in range(0, 8):
-		final = num1 + num2
-		num1 = num2
-		num2 = final
-		print(final)
-			
-fibonacci()
+num1 = 0
+num2 = 1
+print(num1)
+print(num2)
+for i in range(0, 8):
+	final = num1 + num2
+	num1 = num2
+	num2 = final
+	print(final)

@@ -7,7 +7,10 @@ Hint: use print(end=' ') to terminate print() statements with a space instead of
 
 nts = 'ACGT'
 
-print('   A  C  G  T')
+for nt in nts:
+	if nt == 'A':	print('  ', nt, end='  ')
+	elif nt == 'T':	print(nt)
+	else:			print(nt, end='  ')
 
 for nt1 in nts:
 	print(nt1, end=' ')

@@ -14,9 +14,8 @@ def pythagorean(a, b):
 	return c
 
 for a in range(1, 100):
-	for b in range(1, 100):
+	for b in range(a, 100):
 		res = pythagorean(a, b)
-		if b > a:
-			if res % 1 == 0:
-				print(a, b, res)
-				count = count + 1
+		if res % 1 == 0:
+			print(a, b, res)
+			count = count + 1
