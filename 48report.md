@@ -1,14 +1,20 @@
-# 45dndstats.py
-the average stat value for 3D6 is 10.50663
-the average stat value for 3D6r1 is 11.74426
-the average stat value for 3D6x2 is 13.42699
-the average stat value for 4D6d1 is 12.24152
+## 45dndstats.py
+| House Rules  | 3D6      | 3D6r1    | 3D6x2    | 4D6d1    |
+|:------------:|:---------|----------|----------|---------:|
+| Stat Average | 10.50663 | 11.74426 | 13.42699 | 12.24152 |
 
-# 46savingthrows.py
-Difficulty Class	D5	D10	D15
-Probability		0.7997	0.5528	0.3056
 
-# 47deathsaves.py
-the probability of death is 0.36186!
-the probability of stabilizing is 0.44942!
-the probability of revival is 0.18872!
+## 46savingthrows.py
+| Difficulty Class | D5     | Da5    | Dd5    | D10    | Da10   | Dd10  |
+|:-----------------|--------|--------|--------|--------|--------|-------|
+|   Probability    | 0.8038 | 0.9608 | 0.6421 | 0.5573 | 0.8026 | 0.304 |
+
+| Difficulty Class | D15    | Da15   | Dd15   |
+|:-----------------|--------|--------|--------|
+|   Probability    | 0.3006 | 0.5096 | 0.0902 |
+
+
+## 47deathsaves.py
+| Outcome     | Death   | Stabilizing | Revival |
+|:-----------:|:--------|-------------|--------:|
+| Probability | 0.36186 |   0.44942   | 0.18872 |
